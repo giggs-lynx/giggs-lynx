@@ -1,0 +1,39 @@
+name: Metrics
+
+on:
+  schedule: [{ cron: "0 16 * * *" }]   # 每天 UTC 16:00 = 台北 00:00
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: General metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: giggs-lynx
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Taipei
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, ruby, scss, tex
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 6
+
+          plugin_topics: yes
+          plugin_topics_mode: starred
+          plugin_topics_limit: 0
+
+          plugin_lines: yes
+          plugin_lines_sections: base
