@@ -16,15 +16,7 @@
 
 ### 📌 Pinned Projects
 
-<a href="https://github.com/giggs-lynx/SpectraWall">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=giggs-lynx&repo=SpectraWall&theme=tokyonight&cache_seconds=86400" />
-</a>
-<a href="https://github.com/giggs-lynx/homebrew-tap">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=giggs-lynx&repo=homebrew-tap&theme=tokyonight&cache_seconds=86400" />
-</a>
-<a href="https://github.com/giggs-lynx/Noodoe">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=giggs-lynx&repo=Noodoe&theme=tokyonight&cache_seconds=86400" />
-</a>
-<a href="https://github.com/giggs-lynx/exercism-solution">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=giggs-lynx&repo=exercism-solution&theme=tokyonight&cache_seconds=86400" />
-</a>
+- **[SpectraWall](https://github.com/giggs-lynx/SpectraWall)** &middot; Audio-reactive desktop visualizer for macOS
+- **[homebrew-tap](https://github.com/giggs-lynx/homebrew-tap)** &middot; Personal Homebrew formulas
+- **[Noodoe](https://github.com/giggs-lynx/Noodoe)** &middot; Swift experiments
+- **[exercism-solution](https://github.com/giggs-lynx/exercism-solution)** &middot; Rust exercises from Exercism
