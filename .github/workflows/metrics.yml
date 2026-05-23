@@ -39,7 +39,7 @@ jobs:
           plugin_lines_sections: base
 
           plugin_repositories: yes
-          plugin_repositories_featured: SpectraWall, homebrew-tap, Noodoe, exercism-solution
+          plugin_repositories_featured: SpectraWall, homebrew-tap, exercism-solution
           plugin_repositories_pinned: 0
           plugin_repositories_starred: 0
           plugin_repositories_random: 0
